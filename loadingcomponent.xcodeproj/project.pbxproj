@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		792AFA6224A8020B009381C7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792AFA6124A8020B009381C7 /* SecondViewController.swift */; };
+		792AFA6424A805D4009381C7 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792AFA6324A805D4009381C7 /* PostController.swift */; };
 		79F2701124A7A34900CF5CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2701024A7A34900CF5CE7 /* AppDelegate.swift */; };
 		79F2701324A7A34900CF5CE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2701224A7A34900CF5CE7 /* SceneDelegate.swift */; };
-		79F2701524A7A34900CF5CE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2701424A7A34900CF5CE7 /* ViewController.swift */; };
 		79F2701824A7A34900CF5CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F2701624A7A34900CF5CE7 /* Main.storyboard */; };
 		79F2701A24A7A34E00CF5CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F2701924A7A34E00CF5CE7 /* Assets.xcassets */; };
 		79F2701D24A7A34E00CF5CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F2701B24A7A34E00CF5CE7 /* LaunchScreen.storyboard */; };
+		79F2702624A7A5F100CF5CE7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 79F2702524A7A5F100CF5CE7 /* Lottie */; };
+		79F2702924A7A6D400CF5CE7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 79F2702824A7A6D400CF5CE7 /* Alamofire */; };
+		79F2702B24A7AA9100CF5CE7 /* Custom.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F2702A24A7AA9100CF5CE7 /* Custom.storyboard */; };
+		79F2703024A7AAE700CF5CE7 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2702F24A7AAE600CF5CE7 /* LoadingViewController.swift */; };
+		79F2703424A7AB8100CF5CE7 /* 8370-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 79F2703324A7AB8100CF5CE7 /* 8370-loading.json */; };
+		79F2703724A7AFC200CF5CE7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2703624A7AFC200CF5CE7 /* Extensions.swift */; };
+		79F2703924A7B06400CF5CE7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2703824A7B06400CF5CE7 /* MainViewController.swift */; };
+		79F2704024A7B13C00CF5CE7 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2703F24A7B13C00CF5CE7 /* PostList.swift */; };
+		79F2704224A7B18E00CF5CE7 /* PostPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F2704124A7B18E00CF5CE7 /* PostPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		792AFA6124A8020B009381C7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		792AFA6324A805D4009381C7 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 		79F2700D24A7A34900CF5CE7 /* loadingcomponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loadingcomponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F2701024A7A34900CF5CE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79F2701224A7A34900CF5CE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79F2701424A7A34900CF5CE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79F2701724A7A34900CF5CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79F2701924A7A34E00CF5CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79F2701C24A7A34E00CF5CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79F2701E24A7A34E00CF5CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F2702A24A7AA9100CF5CE7 /* Custom.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Custom.storyboard; sourceTree = "<group>"; };
+		79F2702F24A7AAE600CF5CE7 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		79F2703324A7AB8100CF5CE7 /* 8370-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "8370-loading.json"; sourceTree = "<group>"; };
+		79F2703624A7AFC200CF5CE7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		79F2703824A7B06400CF5CE7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		79F2703F24A7B13C00CF5CE7 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		79F2704124A7B18E00CF5CE7 /* PostPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F2702624A7A5F100CF5CE7 /* Lottie in Frameworks */,
+				79F2702924A7A6D400CF5CE7 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,95 @@
 		79F2700F24A7A34900CF5CE7 /* loadingcomponent */ = {
 			isa = PBXGroup;
 			children = (
-				79F2701024A7A34900CF5CE7 /* AppDelegate.swift */,
-				79F2701224A7A34900CF5CE7 /* SceneDelegate.swift */,
-				79F2701424A7A34900CF5CE7 /* ViewController.swift */,
+				79F2703E24A7B0BB00CF5CE7 /* Model */,
+				79F2703D24A7B0B600CF5CE7 /* Controller */,
+				79F2703C24A7B0AB00CF5CE7 /* Presenter */,
+				79F2702C24A7AAC900CF5CE7 /* View */,
+				79F2703124A7AB3A00CF5CE7 /* Utils */,
 				79F2701624A7A34900CF5CE7 /* Main.storyboard */,
+				79F2702A24A7AA9100CF5CE7 /* Custom.storyboard */,
 				79F2701924A7A34E00CF5CE7 /* Assets.xcassets */,
 				79F2701B24A7A34E00CF5CE7 /* LaunchScreen.storyboard */,
+				79F2701024A7A34900CF5CE7 /* AppDelegate.swift */,
+				79F2701224A7A34900CF5CE7 /* SceneDelegate.swift */,
 				79F2701E24A7A34E00CF5CE7 /* Info.plist */,
 			);
 			path = loadingcomponent;
+			sourceTree = "<group>";
+		};
+		79F2702C24A7AAC900CF5CE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79F2702E24A7AAD600CF5CE7 /* Main */,
+				79F2702D24A7AACE00CF5CE7 /* Custom */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79F2702D24A7AACE00CF5CE7 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				79F2702F24A7AAE600CF5CE7 /* LoadingViewController.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		79F2702E24A7AAD600CF5CE7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				79F2703824A7B06400CF5CE7 /* MainViewController.swift */,
+				792AFA6124A8020B009381C7 /* SecondViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		79F2703124A7AB3A00CF5CE7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				79F2703524A7AF9900CF5CE7 /* Extensions */,
+				79F2703224A7AB4300CF5CE7 /* LottieFiles */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		79F2703224A7AB4300CF5CE7 /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				79F2703324A7AB8100CF5CE7 /* 8370-loading.json */,
+			);
+			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+		79F2703524A7AF9900CF5CE7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				79F2703624A7AFC200CF5CE7 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		79F2703C24A7B0AB00CF5CE7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				79F2704124A7B18E00CF5CE7 /* PostPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		79F2703D24A7B0B600CF5CE7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				792AFA6324A805D4009381C7 /* PostController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		79F2703E24A7B0BB00CF5CE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79F2703F24A7B13C00CF5CE7 /* PostList.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +183,10 @@
 			dependencies = (
 			);
 			name = loadingcomponent;
+			packageProductDependencies = (
+				79F2702524A7A5F100CF5CE7 /* Lottie */,
+				79F2702824A7A6D400CF5CE7 /* Alamofire */,
+			);
 			productName = loadingcomponent;
 			productReference = 79F2700D24A7A34900CF5CE7 /* loadingcomponent.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +215,10 @@
 				Base,
 			);
 			mainGroup = 79F2700424A7A34900CF5CE7;
+			packageReferences = (
+				79F2702424A7A5F100CF5CE7 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				79F2702724A7A6D400CF5CE7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 79F2700E24A7A34900CF5CE7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +236,8 @@
 				79F2701D24A7A34E00CF5CE7 /* LaunchScreen.storyboard in Resources */,
 				79F2701A24A7A34E00CF5CE7 /* Assets.xcassets in Resources */,
 				79F2701824A7A34900CF5CE7 /* Main.storyboard in Resources */,
+				79F2702B24A7AA9100CF5CE7 /* Custom.storyboard in Resources */,
+				79F2703424A7AB8100CF5CE7 /* 8370-loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +248,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F2701524A7A34900CF5CE7 /* ViewController.swift in Sources */,
+				79F2703724A7AFC200CF5CE7 /* Extensions.swift in Sources */,
 				79F2701124A7A34900CF5CE7 /* AppDelegate.swift in Sources */,
+				792AFA6224A8020B009381C7 /* SecondViewController.swift in Sources */,
+				79F2703924A7B06400CF5CE7 /* MainViewController.swift in Sources */,
+				79F2704224A7B18E00CF5CE7 /* PostPresenter.swift in Sources */,
+				792AFA6424A805D4009381C7 /* PostController.swift in Sources */,
 				79F2701324A7A34900CF5CE7 /* SceneDelegate.swift in Sources */,
+				79F2703024A7AAE700CF5CE7 /* LoadingViewController.swift in Sources */,
+				79F2704024A7B13C00CF5CE7 /* PostList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +454,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79F2702424A7A5F100CF5CE7 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.8;
+			};
+		};
+		79F2702724A7A6D400CF5CE7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79F2702524A7A5F100CF5CE7 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79F2702424A7A5F100CF5CE7 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		79F2702824A7A6D400CF5CE7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79F2702724A7A6D400CF5CE7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79F2700524A7A34900CF5CE7 /* Project object */;
 }

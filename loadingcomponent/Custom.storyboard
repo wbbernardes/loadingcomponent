@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Loading View Controller-->
+        <scene sceneID="up3-BC-Vmn">
+            <objects>
+                <viewController storyboardIdentifier="LoadingViewController" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="qC4-d0-z5H" customClass="LoadingViewController" customModule="loadingcomponent" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4xv-QI-vmc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KFJ-VW-8mh">
+                                <rect key="frame" x="177" y="418" width="60" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Fel-Z2-duw"/>
+                                    <constraint firstAttribute="width" constant="60" id="SiU-P6-G17"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KFJ-VW-8mh" firstAttribute="centerY" secondItem="4xv-QI-vmc" secondAttribute="centerY" id="3JD-bi-hBs"/>
+                            <constraint firstItem="KFJ-VW-8mh" firstAttribute="centerX" secondItem="4xv-QI-vmc" secondAttribute="centerX" id="eYp-Nl-YFL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="AXo-9t-0N7"/>
+                    </view>
+                    <connections>
+                        <outlet property="viewAnimation" destination="KFJ-VW-8mh" id="Oq1-td-LxF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0eF-vH-taP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-19" y="102"/>
+        </scene>
+    </scenes>
+</document>
